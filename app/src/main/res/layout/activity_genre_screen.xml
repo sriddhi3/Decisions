@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true"
+    tools:context=".GenreScreen">
+
+    <TextView
+        android:id="@+id/tvCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/chipGroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="40dp"
+                android:background="#00642626"
+                app:chipSpacing="40dp"
+                app:chipSpacingHorizontal="40dp"
+                app:singleLine="false">
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip12"
+                    android:layout_width="85dp"
+                    android:layout_height="75dp"
+                    android:checkable="true"
+                    android:text="Comedy"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    app:chipBackgroundColor="@color/colorPrimary" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip13"
+                    android:layout_width="85dp"
+                    android:layout_height="75dp"
+                    android:checkable="true"
+                    android:text="Sci-Fi"
+                    android:textAlignment="center"
+                    app:chipBackgroundColor="@color/colorPrimary" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip14"
+                    android:layout_width="85dp"
+                    android:layout_height="75dp"
+                    android:checkable="true"
+                    android:text="Horror"
+                    android:textAlignment="center"
+                    app:chipBackgroundColor="@color/colorPrimary" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip15"
+                    android:layout_width="85dp"
+                    android:layout_height="75dp"
+                    android:checkable="true"
+                    android:text="Romance"
+                    android:textAlignment="center"
+                    app:chipBackgroundColor="@color/colorPrimary" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip16"
+                    android:layout_width="85dp"
+                    android:layout_height="75dp"
+                    android:checkable="true"
+                    android:text="Action"
+                    android:textAlignment="center"
+                    app:chipBackgroundColor="@color/colorPrimary" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip17"
+                    android:layout_width="85dp"
+                    android:layout_height="75dp"
+                    android:checkable="true"
+                    android:text="Thriller"
+                    android:textAlignment="center"
+                    app:chipBackgroundColor="@color/colorPrimary" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip18"
+                    android:layout_width="85dp"
+                    android:layout_height="75dp"
+                    android:checkable="true"
+                    android:text="Drama"
+                    android:textAlignment="center"
+                    app:chipBackgroundColor="@color/colorPrimary" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip19"
+                    android:layout_width="85dp"
+                    android:layout_height="75dp"
+                    android:checkable="true"
+                    android:text="Mystery"
+                    android:textAlignment="center"
+                    app:chipBackgroundColor="@color/colorPrimary" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip20"
+                    android:layout_width="85dp"
+                    android:layout_height="75dp"
+                    android:checkable="true"
+                    android:text="Crime"
+                    android:textAlignment="center"
+                    app:chipBackgroundColor="@color/colorPrimary" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip21"
+                    android:layout_width="85dp"
+                    android:layout_height="75dp"
+                    android:checkable="true"
+                    android:text="Animation"
+                    android:textAlignment="center"
+                    app:chipBackgroundColor="@color/colorPrimary" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip22"
+                    android:layout_width="85dp"
+                    android:layout_height="75dp"
+                    android:checkable="true"
+                    android:text="Adventure"
+                    android:textAlignment="center"
+                    app:chipBackgroundColor="@color/colorPrimary" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip23"
+                    android:layout_width="85dp"
+                    android:layout_height="75dp"
+                    android:checkable="true"
+                    android:text="Fantasy"
+                    android:textAlignment="center"
+                    app:chipBackgroundColor="@color/colorPrimary" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip24"
+                    android:layout_width="85dp"
+                    android:layout_height="75dp"
+                    android:checkable="true"
+                    android:text="Rom-Com"
+                    android:textAlignment="center"
+                    app:chipBackgroundColor="@color/colorPrimary" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip25"
+                    android:layout_width="85dp"
+                    android:layout_height="75dp"
+                    android:checkable="true"
+                    android:text="Action-Comedy"
+                    android:textAlignment="center"
+                    app:chipBackgroundColor="@color/colorPrimary" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip26"
+                    android:layout_width="85dp"
+                    android:layout_height="75dp"
+                    android:checkable="true"
+                    android:text="Superhero"
+                    android:textAlignment="center"
+                    app:chipBackgroundColor="@color/colorPrimary" />
+
+            </com.google.android.material.chip.ChipGroup>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="28dp"
+        android:text="Finish"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</LinearLayout>

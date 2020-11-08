@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Decisions</string>
+    <string name="title_activity_movie_description">MovieDescription</string>
+    <string name="title_activity_genre_screen">GenreScreen</string>
 </resources>
